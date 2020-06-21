@@ -1,0 +1,227 @@
+.navbar {
+    background: black;
+    border-bottom: grey 3px solid;
+    opacity: 0,8;
+    
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position:fixed;
+  top:0;
+    z-index:10;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear:left;
+}
+.container {
+    max-width:1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+    display: none;
+  /* Gantikan property display ke none */
+  
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/traveloka/imageResource/2017/12/07/1512631144617-03ad46f743f6c4b6ba8b325395ba9a32.jpeg);
+  background-size: cover;
+    backface-visibility: visible;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.fa {
+  margin-right:5px;
+}
+
+.lesson-wrapper {
+  padding-bottom:80px;
+  background-color:#f7f7f7;
+  text-align:center;
+}
+
+.heading {
+  padding-top:60px;
+  padding-bottom:30px;
+  color:#5f5d60;
+}
+
+.heading h2 {
+  font-weight:normal;
+}
+
+.lesson {
+  float:left;
+  width:25%;
+}
+
+.lesson-icon {
+  position:relative;
+}
+
+.lesson-icon p {
+  position:absolute;
+  top:90px;
+  width:100%;
+  color:white;
+}
+
+.txt-contents {
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  color:#b3aeb5;
+  font-size:15px;
+}
+
+.message {
+  background-color:#5dca88;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  cursor:pointer;
+  box-shadow:0px 7px #1a7940;
+}
+
+.heading h3 {
+  font-weight:normal;
+}
+
+.message-wrapper {
+  border-bottom:1px solid #eee;
+  padding-bottom:80px;
+  text-align:center;
+}
+
+.message:active {
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+.contact-form {
+  padding-top:50px;
+}
+
+input, textarea {
+  width:400px;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:10px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+  
+}
+
+.contact-submit {
+  background-color:#dee7ec;
+  color:#889eab;
+    margin-bottom:10px;
+}
+
+. {
+  float:left;
+  width:25%;
+}
+
+footer a {
+  color:white;
+  font-size:24px;
+}
+
+footer {
+  padding-top:30px;
+    background-color: black;
+}
+
+.sitemessage {
+  display: inline-block;
+  white-space: nowrap;
+  animation: floatText 15s infinite linear;
+  padding-left: 100%; /*Initial offset*/
+    color:white;
+}
+.sitemessage:hover {
+  animation-play-state: paused;
+}
+
+@keyframes floatText {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+* {
+  box-sizing:border-box;
+}
