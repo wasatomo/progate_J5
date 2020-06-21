@@ -1,0 +1,61 @@
+@media (max-width: 1000px ) {
+  .lesson {
+    width:50%;
+    margin-bottom:50px;
+  }
+    
+    .top-wrapper h1 {
+    font-size:32px;
+  }
+
+  /* Tambahkan CSS untuk tag <h2> didalam heading */
+  .heading h2 {
+    font-size:20px;
+  }
+}
+
+@media (max-width: 670px) {
+  /* Ubah width milik lesson ke 100% */
+  .lesson {
+    width:100%;
+  }
+    
+    footer {
+    text-align:center;
+  }
+    
+    .btn {
+    width:100%;
+  }
+  
+  /* Gantikan margin-bottom facebook ke 10px */
+  .facebook {
+    margin-bottom:10px;
+  }
+  
+  /* Tambahkan CSS untuk top-wrapper */
+  .top-wrapper {
+    text-align:center;
+    padding-top:130px;
+  }
+    
+    .top-wrapper h1 {
+  font-size:24px;
+  line-height:36px;
+}
+  
+  /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
+  .top-wrapper p {
+    font-size: 14px;
+    line-height:20px;
+      text-align: center;
+  }
+}
+
+.header-right {
+    display:none;
+  }
+
+.menu-icon {
+    display:block;
+  }
