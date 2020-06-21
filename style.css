@@ -215,7 +215,6 @@ footer {
 .sitemessage:hover {
   animation-play-state: paused;
 }
-
 @keyframes floatText {
   to {
     transform: translateX(-100%);
